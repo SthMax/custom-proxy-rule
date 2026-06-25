@@ -1,0 +1,93 @@
+# NAME: HK_Brokers
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script/issues/1687
+# UPDATED: 2026-06-25
+# HOST-SUFFIX: 60
+# TOTAL: 60
+
+# ==================== MAIN ISSUE (57) ====================
+
+# Futu - core domains
+HOST-SUFFIX,futu.link,HK_Broker
+HOST-SUFFIX,futu.com,HK_Broker
+HOST-SUFFIX,futu.cn,HK_Broker
+HOST-SUFFIX,futunn.com,HK_Broker
+
+# Futu - numbered and backup domains
+HOST-SUFFIX,futu0.com,HK_Broker
+HOST-SUFFIX,futu1.com,HK_Broker
+HOST-SUFFIX,futu2.com,HK_Broker
+HOST-SUFFIX,futu3.com,HK_Broker
+HOST-SUFFIX,futu4.com,HK_Broker
+HOST-SUFFIX,futu5.com,HK_Broker
+HOST-SUFFIX,futu6.com,HK_Broker
+HOST-SUFFIX,futu7.com,HK_Broker
+HOST-SUFFIX,futu8.com,HK_Broker
+HOST-SUFFIX,futu9.com,HK_Broker
+
+# Futu - regional, business, trading, and static assets
+HOST-SUFFIX,futuau.com,HK_Broker
+HOST-SUFFIX,futuesop.com,HK_Broker
+HOST-SUFFIX,futufin.com,HK_Broker
+HOST-SUFFIX,futuhk.com,HK_Broker
+HOST-SUFFIX,futuhk2.com,HK_Broker
+HOST-SUFFIX,futuhkapp.com,HK_Broker
+HOST-SUFFIX,futuhn.com,HK_Broker
+HOST-SUFFIX,futuholdings.com,HK_Broker
+HOST-SUFFIX,futuinc.com,HK_Broker
+HOST-SUFFIX,futuniuniu.com,HK_Broker
+HOST-SUFFIX,futubull.cn,HK_Broker
+HOST-SUFFIX,futuchain.com,HK_Broker
+HOST-SUFFIX,futustatic.com,HK_Broker
+HOST-SUFFIX,fututrade.com,HK_Broker
+HOST-SUFFIX,fututrustee.com,HK_Broker
+HOST-SUFFIX,cdn.futustatic.com,HK_Broker
+
+# Moomoo - app and account services
+HOST-SUFFIX,moomoo.com,HK_Broker
+HOST-SUFFIX,api.moomoobull.com,HK_Broker
+HOST-SUFFIX,moomooequity.com,HK_Broker
+HOST-SUFFIX,moomootrustee.com,HK_Broker
+
+# Futu / Moomoo - attribution and push related endpoints
+HOST-SUFFIX,9oju31.launches.appsflyersdk.com,HK_Broker
+HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,HK_Broker
+
+# Futu / Moomoo - Tencent IM long connection
+HOST-SUFFIX,shortconn.im.qcloud.com,HK_Broker
+
+# Longbridge - API endpoints
+HOST-SUFFIX,api.lbkrs.com,HK_Broker
+HOST-SUFFIX,api-gl.lbkrs.com,HK_Broker
+
+# Longbridge - official domains and app services
+HOST-SUFFIX,longbridge.cloud,HK_Broker
+HOST-SUFFIX,longbridge.com,HK_Broker
+HOST-SUFFIX,longbridge.global,HK_Broker
+HOST-SUFFIX,longbridge.hk,HK_Broker
+HOST-SUFFIX,longbridge.sg,HK_Broker
+HOST-SUFFIX,longbridgeapp.com,HK_Broker
+HOST-SUFFIX,longbridgehk.com,HK_Broker
+
+# Tiger Brokers - official domains
+HOST-SUFFIX,itiger.com,HK_Broker
+HOST-SUFFIX,tigerbrokers.com,HK_Broker
+HOST-SUFFIX,tigerbrokers.net,HK_Broker
+HOST-SUFFIX,tigerbrokers.nz,HK_Broker
+HOST-SUFFIX,tigerfintech.com,HK_Broker
+
+# Tiger Brokers - community and legacy domains
+HOST-SUFFIX,laohu8.com,HK_Broker
+HOST-SUFFIX,tigerbbs.cn,HK_Broker
+HOST-SUFFIX,tigerbbs.com,HK_Broker
+HOST-SUFFIX,xiaohu8.com,HK_Broker
+HOST-SUFFIX,zhijianfengyi.cn,HK_Broker
+HOST-SUFFIX,zhijianfengyi.com,HK_Broker
+
+# ==================== REPLY SUPPLEMENTS (3) ====================
+
+# HSTong
+HOST-SUFFIX,hstong.com,HK_Broker
+
+# Longbridge
+HOST-SUFFIX,lbkrs.com,HK_Broker
+HOST-SUFFIX,lbctrl.com,HK_Broker
